@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Signup</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Shopi<span class="brandZ">Z</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">Aboutus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contactus</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <a href="login.html" class="btn btn-outline-secondary btnlogin mx-2" aria-pressed="true">Login</a>
+                <a href="signup.html" class="btn btn-outline-secondary btnsignup" aria-pressed="true">Signup</a>
+            </span>
+        </div>
+    </nav>
+
+    <div class="registration-form">
+        <div class="container">
+            <h2>Registration</h2>
+            <div class="registration-grids">
+                <div class="reg-form">
+                    <div class="reg">
+                        <p>Welcome, please enter the following details to continue.</p>
+                        <form>
+                            <ul>
+                                <li class="text-info">First Name:</li>
+                                <li><input type="text" id="fname" name="fname" required="required"
+                                        placeholder="First Name"></li>
+                            </ul>
+                            <ul>
+                                <li class="text-info">Last Name:</li>
+                                <li><input type="text" id="lname" name="lname" required="required"
+                                        placeholder="Last Name"></li>
+                            </ul>
+                            <ul>
+                                <li class="text-info">Email:</li>
+                                <li><input type="text" id="email" name="email" required="required"
+                                        placeholder="Email Address"></li>
+                            </ul>
+                            <ul>
+                                <li class="text-info">Password:</li>
+                                <li><input type="password" id="password" name="password" required="required"
+                                        placeholder="Password"></li>
+                            </ul>
+                            <ul>
+                                <li class="text-info">Mobile No.:</li>
+                                <li><input type="tel" id="mobileno" name="mobileno" required="required"
+                                        placeholder="Mobile Number"></li>
+                            </ul>
+                            <input type="submit" value="REGISTER NOW" id="regbtn">
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer1">
+            <p class="fpara">Shopi<span style="color: black !important;" class="brandZ">Z</span> © 2020</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
